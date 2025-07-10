@@ -160,4 +160,20 @@ font-size: 16px;
 }
 .download-cv {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* footer */
+
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 115px;
+}
+.footer-column {
+  width:50%;
+}
+
+footer input [type="text"]{
+  height: 64px;
+  /* width: 661px; */
 }
