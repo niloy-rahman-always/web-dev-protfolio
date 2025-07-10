@@ -24,12 +24,6 @@ nav ul {
 .text-primary {
   color: #FD6E0A;
 }
-.dark-2 {
-  color: #474747;
-}
-.dark-3 {
-  color: #757575;
-}
 .nav-title{
   font-weight: 800;
   font-size: 45px;
@@ -41,15 +35,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
-}
-.btn-primary {
-background-color: #FD6E0A;
-border-radius: 5px;
-color: #FFFFFF;
-border: none;
-padding: 18px 35px; 
-font-size: 20px;
-font-weight: bold;
 }
 /* banner */
 .banner-content {
@@ -74,4 +59,105 @@ font-weight: bold;
 .banner-profile {
   width: 584px;
   height: 676px;
+}
+ /* shared design */
+
+
+ .secondary-bg {
+  background-color: #FFF8F3;
+ }
+
+ .dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+ .btn-primary {
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  padding: 18px 35px; 
+  font-size: 20px;
+  font-weight: bold;
+  }
+  .text-center {
+    text-align: center;
+  }
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  
+}
+
+/* main */
+main {
+  max-width: 1140px;
+margin: 0 auto;
+margin-top: 130px;
+}
+
+/* about */
+
+
+.about {
+  border-radius: 10px;
+  justify-content: space-around;
+  padding: 130px 150px;
+  text-align: center;
+  
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+}
+
+
+
+/* skill-section  */
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px #000000; 
+  border-radius: 10px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: bold;
+}
+.experience-title {
+  color: #474747;
+  font-size: 25px;
+}
+.experience-sub-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience-description {
+color: #757575;
+font-size: 16px;
+}
+.download-cv {
+  margin-top: 50px;
 }
